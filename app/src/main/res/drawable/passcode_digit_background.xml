@@ -1,0 +1,49 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Focused and not pressed -->
+    <item android:id="@android:id/background"
+        android:state_focused="true"
+        android:state_pressed="false">
+        <shape android:shape="oval">
+            <stroke android:color="#1d4e8e" android:width="2dp" />
+            <size
+                android:width="60dp"
+                android:height="60dp" />
+        </shape>
+    </item>
+
+    <!-- Focused and pressed -->
+    <item android:id="@android:id/background"
+        android:state_focused="true"
+        android:state_pressed="true" >
+        <shape android:shape="oval">
+            <stroke android:color="#003171" android:width="2dp" />
+            <size
+                android:width="60dp"
+                android:height="60dp" />
+        </shape>
+    </item>
+
+    <!-- Unfocused and pressed -->
+    <item android:id="@android:id/background"
+        android:state_focused="false"
+        android:state_pressed="true" >
+        <shape android:shape="oval">
+            <stroke android:color="#173d70" android:width="2dp" />
+            <size
+                android:width="60dp"
+                android:height="60dp" />
+        </shape>
+    </item>
+
+    <!-- Default color -->
+    <item android:id="@android:id/background">
+        <shape android:shape="oval">
+            <stroke android:color="@color/passcode_text_color" android:width="2dp" />
+            <size
+                android:width="60dp"
+                android:height="60dp" />
+        </shape>
+    </item>
+
+</selector>

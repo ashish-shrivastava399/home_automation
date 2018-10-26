@@ -1,0 +1,364 @@
+<resources>
+    <string name="app_name">IoT Tech</string>
+
+
+    <string name="no_internet_connection">Please check your internet connection</string>
+    <string name="unable_to_connect_server">Unable to communicate with server Plaease Try Again Later</string>
+
+    <string name="entry_pass" translatable="false">entry_pass_type</string>
+    <string name="pass_check_point" translatable="false">passCheckPoint</string>
+
+    <string name="info_slider_one_title" translatable="false">Change Language / Змінити мову / Изменить язык / भाषा बदलो</string>
+    <string name="info_slider_one_desc">If You are not comfortable with default language. You can change it from here.</string>
+    <string name="info_slider_one_button_text">Click Me</string>
+    <string name="info_slider_two_title">User agreement</string>
+    <string name="info_slider_two_desc">User Agreement is available on <a href="https://myiot.com/conditions/">https://myiot.com/conditions/</a> which contains all the terms and conditions of the agreement and is a proposal by myiot.com to enter.</string>
+    <string name="info_slider_two_button_text">Read Agreement</string>
+    <string name="info_slider_two_message">ATTENTION: If you do not agree to the terms of this user agreement, do not sign in/up.</string>
+    <string name="info_slider_three_title">Grant access for easy to use</string>
+    <string name="firebaseNetworkExp">Request has been failed due to a network error. Inspect the device\'s network connectivity state or retry later to resolve.</string>
+    <string name="email_entered_already_exists">Please check your email address.</string>
+    <string name="info_slider_three_desc">@string/info_explanation_for_permissions</string>
+    <string name="info_slider_three_button_text">@string/grant_permission</string>
+    <string name="info_slider_three_message">Permissions not granted</string>
+    <string name="info_slider_four_title">For added security, locking this app is required</string>
+    <string name="info_slider_four_desc">To keep you safe data is stored on your device not on centralized services.</string>
+    <string name="info_slider_four_button_text">@string/action_sign_in</string>
+    <string name="info_slider_four_message">@string/term_conditions</string>
+    <string name="grant_permission">Grant Permission</string>
+    <string name="grant">Grant</string>
+    <string name="cancel">Cancel</string>
+    <string name="info_explanation_for_permissions">To fast and secure access of our service\'s, give permissions to access Contact, Storage etc.</string>
+    <string name="lock_with_passcode">Lock With Passcode</string>
+    <string name="term_conditions">By continuing, you agree to myiot.com Terms &amp; Conditions and Privacy Policy.</string>
+
+    <string name="partial_permission_granted">Partial Permission Granted</string>
+    <string name="all_permission_denied">All Permission Denied</string>
+    <string name="all_permission_granted">All Permission Granted</string>
+    <string name="unable_to_get_all_permissions">Unable to get all Permissions</string>
+    <string name="go_to_setting">Go to Permissions to Grant all permissions</string>
+    <string name="_package" translatable="false">package</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="choose_language">Choose Language</string>
+    <string name="unable_to_change_language">Unable to change Language</string>
+    <string name="login_status" translatable="false">loginStatus</string>
+
+    <!--LoginActivity translatable-->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">Contacts permissions are needed for providing email completions.</string>
+    <string name="forget_your_password">Forget your Password ?</string>
+    <string name="remember_me">Remember me</string>
+    <string name="register_here">Register Here.</string>
+    <string name="invalid_connection_rechapcha">Rechapcha Verification failed. Check Connection and Try Again!!</string>
+    <string name="check_connection">Please check your Internet Connection.</string>
+    <string name="invalid_data_entered">Please check your Username/Password.</string>
+    <string name="setup_passcode" translatable="false">setting_up_passcode</string>
+    <string name="unknown_issue">Unknown Error. Please report it and Try Again!!</string>
+    <string name="skip">Skip</string>
+    <string name="create_passcode_message">Please set up a pin code that you will remember. You will use it every time you open the app. Change pin size from setting button</string>
+    <string name="destination" translatable="false">destination</string>
+    <string name="reset_pass" translatable="false">resetPass</string>
+    <string name="security_check" translatable="false">securityCheck</string>
+    <string name="create_passcode">Create Passcode</string>
+    <string name="enter_passcode">Enter Passcode</string>
+    <string name="reenter_passcode">Re-enter Passcode</string>
+    <string name="reenter_passcode_message">Please re-enter a pin code. This is for confirmation that you enter passcode correctly</string>
+    <string name="pass_check_point_message">Please enter a pin code that you set up. This is the key to access your account</string>
+    <string name="confirm_passcode">Confirm Passcode</string>
+    <string name="number" translatable="false">number</string>
+    <string name="exception_passcode">Something went wrong. Try Again.</string>
+    <string name="wrong_passcode">Incorrect passcode. Please try again.\n You can try %d more time</string>
+    <string name="passcode_not_match">Passcode don\'t match</string>
+    <string name="passcode_successfully_set">Passcode Successfully Set</string>
+    <string name="change_passcode_size">Change Passcode Size</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="from_there_only">from_there_only</string>
+
+    <!--HomeActivity-->
+    <string name="market">Market</string>
+    <string name="trades">Trades</string>
+    <string name="orders">Orders</string>
+    <string name="wallet">Wallet</string>
+    <string name="account">Account</string>
+
+    <!--PasscodeActivity-->
+    <string name="fingerprint_scanner_not_detected">Fingerprint Scanner not detected in Device</string>
+    <string name="fingerprint_scanner_permission_not_granted">Permission not granted to use Fingerprint Scanner</string>
+    <string name="add_lock_to_phone">Add Lock to your Phone in Settings</string>
+    <string name="add_minimum_one_fingerprint">You should add atleast 1 Fingerprint to use this Feature</string>
+    <string name="place_finger_on_scanner">Place your Finger on Scanner to Access the App.</string>
+    <string name="auth_failed_try_again">Auth Failed. Try Again</string>
+    <string name="auth_error_try_again">There was an Auth Error.</string>
+    <string name="error_colon">Error:</string>
+    <string name="auth_successful">You can now access the app.</string>
+    <string name="theme_setting">theme_setting</string>
+    <string name="please_wait">Please Wait...</string>
+    <string name="search">Search</string>
+
+
+    <string name="n_change_per" translatable="false">%s\u00A0%%</string>
+    <string name="p_change_per" translatable="false">\u002B%s\u00A0%%</string>
+    <string name="na_change_per" translatable="false">\u00A0%s\u00A0%%</string>
+    <string name="low_market">Low\u00A0%s</string>
+    <string name="high_market">High\u00A0%s</string>
+    <string name="last_market" translatable="false">%s\u00A0%s</string>
+    <string name="na" translatable="false">N.A.</string>
+    <string name="rq_p_file_name" translatable="false">rq_p_f_n</string>
+    <string name="requested_market_view_pos" translatable="false">rq_mkt_vpos</string>
+    <string name="requested_order_view_pos" translatable="false">rq_order_vpos</string>
+    <string name="choosed_pair_name" translatable="false">choosed_pair_name</string>
+    <string name="choosed_pair_id" translatable="false">choose_pair_id</string>
+    <string name="prompt_totp">TOTP</string>
+    <string name="prompt_enter_code">Enter Code</string>
+    <string name="invalid_otp">Please check your otp and Try Again!!</string>
+
+    <!--PrimePreference non-translatable-->
+    <string name="settings_user_is_first_login" translatable="false">is_first_login</string>
+    <string name="settings_user_is_logged_in" translatable="false">is_logged_in</string>
+    <string name="settings_user_has_passcode" translatable="false">user_has_passcode</string>
+    <string name="settings_user_secret_public_key" translatable="false">secret_public_key</string>
+    <string name="settings_user_passcode" translatable="false">user_passcode</string>
+    <string name="settings_user_wrong_attempts_left" translatable="false">no_of_wrong_attempts_left</string>
+    <string name="settings_user_last_login_attempt_time" translatable="false">last_login_attempt_time</string>
+    <string name="settings_user_passcode_size" translatable="false">user_passcode_size</string>
+    <string name="settings_user_passcode_org_size" translatable="false">user_passcode_org_size</string>
+    <string name="requested_view_type_pos" translatable="false">requested_view_type_pos</string>
+    <string name="requested_language" translatable="false">requested_language</string>
+    <string name="requested_language_code" translatable="false">requested_language_code</string>
+    <string name="requested_language_img_id" translatable="false">requested_language_img_id</string>
+    <string name="start_up_desc">Ukrainian Currency Exchange \n Start Making Money with easy and fast</string>
+
+    <!--SecurePreference non-translatable-->
+    <string name="s_p_file_name" translatable="false">temp_org_sc</string>
+    <string name="tc_pb_ky" translatable="false">tc_pb_ky</string>
+    <string name="tc_val" translatable="false">tc_val</string>
+    <string name="tc_rem" translatable="false">tc_rem</string>
+    <string name="tc_time" translatable="false">tc_time</string>
+
+
+
+    <!--NoInternetActivity translatable-->
+    <string name="server_down">Internet Problem</string>
+    <string name="reload">Reload</string>
+    <string name="recheck">Recheck</string>
+    <string name="internet_error_title">Application is unable to communicate with server</string>
+    <string name="internet_error_sub_title">Please Check the Problem and Try Again!!!</string>
+    <string name="internet_error_report">Raise the issue on www.richamster.com/appissue if it is not if it is not resolved.</string>
+    <string name="internet_error_01_title_desc">This may be due to Server Side Problem or your internet connection is not available or very slow.</string>
+    <string name="internet_error_02_title_desc">This is due because of internet connection.</string>
+    <string name="desc" translatable="false">desc</string>
+    <string name="button_type" translatable="false">button_type</string>
+
+    <string name="change_language">Change Language</string>
+    <string name="theme_off">No</string>
+    <string name="theme_on">Yes</string>
+    <string name="default_language">English</string>
+    <string name="default_language_code">en</string>
+    <string name="theme_default">@string/theme_off</string>
+    <string name="fingerprint_service_not_available">Fingerprint Service Not Available On This Device</string>
+    <string name="change_passcode_canceled">Request for change passcode canceled.</string>
+    <string name="change_passcode_successfully">Passcode changed successfully.</string>
+    <string name="use_fingerprint">Use Fingerprint</string>
+    <string name="finger_scanner_detected">Device support fingerprint Scan.</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_pass_from_pref" translatable="false">reset_pass_from_pref</string>
+    <string name="swipe_up_to_scanner">Swipe Up To use Fingerprint Scanner</string>
+
+
+    <string-array name="language_available">
+        <item>English</item>
+        <item>Russian</item>
+        <item>Ukrainian</item>
+    </string-array>
+
+    <string name="maxBlockedTime" translatable="false">maxBlockedTime</string>
+
+    <string name="ok">OK</string>
+    <string name="go_enable_permissions">Go to settings and enable permissions</string>
+
+
+    <string-array name="passcode_size_list">
+        <item value="3">3</item>
+        <item value="4">4</item>
+        <item value="5">5</item>
+        <item value="6">6</item>
+    </string-array>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="passcode">Passcode</string>
+    <string name="off">Off</string>
+    <string name="on">On</string>
+    <string name="enable_dark_theme">Enable Dark Theme</string>
+    <string name="logout_alert_message">Do you want to log out?</string>
+    <string name="passcode_turn_off_alert_message">Do you want to remove passcode security check?</string>
+
+    <string name="access_blocked">Access Blocked</string>
+    <string name="access_blocked_region">You exceeded the number of tries allowed to open Bit Future Trade with Passcode</string>
+    <string name="access_blocked_try_again_in">Try Again in</string>
+    <string name="pair">Pair</string>
+    <string name="price">Price</string>
+    <string name="amount">Amount</string>
+    <string name="change">Change%</string>
+    <string name="minus_sign" translatable="false">—</string>
+    <string name="plus_sign" translatable="false">+</string>
+    <string name="price_trade_pair">Price(%s)</string>
+    <string name="amount_trade_pair">Amount(%s)</string>
+    <string name="amt_trade_pair">Amt(%s)</string>
+    <string name="total_trade_pair">Total(%s)</string>
+    <string name="stop_trade_pair">Stop(%s)</string>
+    <string name="limit_trade_pair">Limit(%s)</string>
+    <string name="sell">Sell</string>
+    <string name="buy">Buy</string>
+    <string name="checked">Checked</string>
+    <string name="trade">Trade</string>
+    <string name="buy_tab">\u00A0 \u00A0Buy\u00A0 \u00A0</string>
+    <string name="sell_tab">\u00A0 \u00A0Sell\u00A0 \u00A0</string>
+    <string name="open_order">Open Order</string>
+    <string name="trade_preference_file_name" translatable="false">trade_preference_file_name</string>
+    <string name="choose_pair_name" translatable="false">choose_pair_name</string>
+    <string name="buy_sell_choice" translatable="false">buy_sell_choice</string>
+    <string name="user_order_type" translatable="false">user_order_type</string>
+    <string name="currentPairName" translatable="false">currentPairName</string>
+    <string name="choose_pair_pos" translatable="false">choose_pair_pos</string>
+    <string name="equivalent">Equivalent $\u00A0</string>
+    <string name="market_price">Market Price</string>
+    <string name="secure_preference_file_name" translatable="false">temp_org_sc</string>
+
+
+    <string name="token" translatable="false">token</string>
+    <string name="tc_rebme" translatable="false">tc_rebme</string>
+
+    <string name="token_user" translatable="false">token_user</string>
+    <string name="amt_value">Vol\u00A0\u00A0\u00A0\u00A0%s</string>
+    <string name="price_value">Price\u00A0%s</string>
+    <string name="open_order_successfully_closed">Open order cancelled successfully.</string>
+    <string name="open_order_error_closed">Open order not cancelled successfully.</string>
+    <string name="logout">Log Out</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_id">User ID</string>
+    <string name="language">Language</string>
+    <string name="change_passcode">Change Passcode</string>
+    <string name="settings">Settings</string>
+    <string name="about_us">About Us</string>
+    <string name="support">Support</string>
+    <string name="my_details">My Details</string>
+    <string name="account_my_details_desc">Name, uid, email, etc</string>
+    <string name="account_settings_desc">Language, Passcode etc</string>
+    <string name="account_support_desc">Contact Us, FAQ, etc</string>
+    <string name="account_about_us_desc">Our Organization</string>
+    <string name="failed_to_load">Failed to load data from server. Please check your internet connection. If internet is working refresh the page.</string>
+    <string name="unable_to_recreate">Unable to refresh view for language change. Please close the app and open again.</string>
+    <string name="name">Name</string>
+    <string name="your_message">Your Message</string>
+    <string name="submit">Submit</string>
+    <string name="contact_no">Contact No.</string>
+    <string name="reponse_submitted_sucessfully">Thank you for contacting us. We will answer you soon.</string>
+    <string name="failed_submit_request">Failed to submit your request. Try Again Later!!</string>
+    <string name="your_total_balance">Your Total Balance</string>
+    <string name="in_orders_value">in orders : %s</string>
+    <string name="in_auctions_value">in auctions : %s</string>
+    <string name="krb_value">%s KRB</string>
+    <string name="btc_value">%s BTC</string>
+    <string name="uah_value">%s UAH</string>
+    <string name="title_pair_name">Choice Pair Name</string>
+    <string name="failed_to_create_order">Failed to create this order</string>
+    <string name="order_creation_unsucessfull">Unsuccessful to create new order</string>
+    <string name="order_creation_sucessfull">Order created successfully</string>
+    <string name="avbl">Avbl</string>
+    <string name="available">Available</string>
+    <string name="per_25">25%</string>
+    <string name="per_50">50%</string>
+    <string name="per_75">75%</string>
+    <string name="per_100">100%</string>
+    <string name="_0_0">0.0</string>
+
+    <string name="email">Email</string>
+    <string name="contact">Contact</string>
+    <string name="role">Role</string>
+    <string name="user_details">User Details</string>
+    <string name="support_desc_message">Write query and we will contact you back as soon as possible</string>
+    <string name="limit_order">Limit Order</string>
+
+
+    <string name="about_us_desc">Internet of Things (IoT) conceptualizes the idea of remotely connecting and monitoring real world objects (things) through the Internet [1]. When it comes to our house, this concept can be aptly incorporated to make it smarter, safer and automated. This IoT project focuses on building a smart wireless home security system which sends alerts to the owner by using Internet in case of any trespass and raises an alarm optionally. Besides, the same can also be utilized for home automation by making use of the same set of sensors. The leverage obtained by prefering this system over the similar kinds of existing systems is that the alerts and the status sent by the wifi connected microcontroller managed system can be received by the user on his phone from any distance irrespective of whether his mobile phone is connected to the internet. The microcontroller used in the current prototype is the TI-CC3200 Launchpad board which comes with an embedded micro-controller and an onboard Wi-Fi shield making use of which all the electrical appliances inside the home can be controlled and managed.</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="user_fav_list">user_fav_list</string>
+    <string name="requested_trdae_view_pos">requested_trdae_view_pos</string>
+    <string name="fav_file_name">fav_file_name</string>
+    <string name="time">Time</string>
+    <string name="market_trades">Market Trades</string>
+    <string name="price_only_value">%s</string>
+    <string name="shuffle_passcode">Shuffle Passcode</string>
+    <string name="settings_user_shuffle_passcode">settings_user_shuffle_passcode</string>
+    <string name="choose_passcode_size">Choose Passcode Size</string>
+    <string name="total">Total</string>
+    <string name="in_orders">In Order</string>
+    <string name="in_auction">In Auction</string>
+    <string name="estimated_krb">Estimated Value (KRB)</string>
+    <string name="estimated_btc">Estimated Value (BTC)</string>
+    <string name="estimated_uah">Estimated Value (UAH)</string>
+    <string name="deposit">Deposit</string>
+    <string name="balance">Balance</string>
+    <string name="withdrawal">Withdrawal</string>
+    <string name="io_fee">Fee %s</string>
+    <string name="show_qr_code">Show QR Code</string>
+    <string name="copy_address">Copy Address</string>
+    <string name="copied_successfully">Copied Successfully</string>
+    <string name="address">Address</string>
+    <string name="done">Done</string>
+    <string name="withdraw_amount">Withdraw Amount</string>
+    <string name="available_balance">Available Balance</string>
+    <string name="inter_valid_input">Please enter valid data</string>
+    <string name="your_avl_bal_label">%s Available Balance</string>
+    <string name="your_avl_bal_of_currency_x">%s %s</string>
+    <string name="deposit_address_label">%s Address</string>
+    <string name="fee">Fee</string>
+    <string name="withdraw_fee">Fee : %s</string>
+    <string name="withdraw_receive">Receive Amount : %s</string>
+    <string name="raise_issue">Raise Issue</string>
+    <string name="no_internet">No Internet</string>
+    <string name="checking_connection">Checking Connection</string>
+    <string name="connecting_server">Connecting to Server....</string>
+    <string name="fetching_data">Fetching Data....</string>
+    <string name="preparing_qr">Preparing QR Code.....</string>
+    <string name="finishing">Finishing…</string>
+    <string name="add_filter">Add Filter</string>
+    <string name="reset">Reset</string>
+    <string name="coin">Coin</string>
+    <string name="select_order_type">Select Order Type</string>
+    <string name="select_order_status">Select Order Status</string>
+    <string name="all">All</string>
+    <string name="bid">BID</string>
+    <string name="ask">ASK</string>
+    <string name="closed_order">Closed Order</string>
+    <string name="validating_data">Validating data entered</string>
+    <string name="withdraw_successful">Withdraw Successfully Completed.</string>
+    <string name="updating_data_set_after_withdraw">Fetching latest updated data from Server…</string>
+    <string name="cancelling_order">Cancelling Order…</string>
+    <string name="tc__all_ok">tccok</string>
+    <string name="tc_init_c">tc_init_c</string>
+    <string name="not_sufficient_balance">Your balance is not sufficient to make order.</string>
+    <string name="last">Last</string>
+    <string name="vol">Vol</string>
+    <string name="slow_internet_connection">Slow Internet Connection…</string>
+    <string name="loading">Loading…</string>
+    <string name="home">Home</string>
+    <string name="info">Info</string>
+    <string name="error_password_pattern_entered">Password should have minimum 6 characters</string>
+    <string name="action_sign_up">Sign Up</string>
+    <string name="already_have_account">Log In</string>
+</resources>

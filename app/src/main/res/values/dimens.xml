@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- StartUpActivity -->
+    <dimen name="start_up_pbar_margin_bottom">30dp</dimen>
+    <dimen name="start_up_pbar_height">60dp</dimen>
+    <dimen name="start_up_pbar_width">60dp</dimen>
+    <dimen name="start_up_ll_m">10dp</dimen>
+    <dimen name="start_up_iv_height">80dp</dimen>
+
+    <!--View Custom Toast-->
+    <dimen name="v_cus_toast_margin">5dp</dimen>
+    <dimen name="v_cus_toast_padding">10dp</dimen>
+    <dimen name="v_cus_toast_iv_margin_e">10dp</dimen>
+    <dimen name="v_cus_toast_iv_margin_s">5dp</dimen>
+    <dimen name="v_cus_toast_tv_padding">3dp</dimen>
+    <dimen name="v_cus_toast_tv_text_size">16sp</dimen>
+
+    <!-- InformationActivity -->
+    <dimen name="info_button_txt_size">16sp</dimen>
+    <dimen name="info_slider_padding_top">30dp</dimen>
+    <dimen name="info_slider_img_margin_bottom">20dp</dimen>
+    <dimen name="info_slider_title_margin_bottom">20dp</dimen>
+    <dimen name="info_slider_message_padding_bottom">20dp</dimen>
+    <dimen name="info_slider_layout_padding_bottom">20dp</dimen>
+    <dimen name="info_slider_desc_margin_bottom">20dp</dimen>
+    <dimen name="info_slider_btn_margin_bottom">20dp</dimen>
+    <dimen name="info_slider_title_txt_size">20sp</dimen>
+    <dimen name="info_slider_desc_line_space">2dp</dimen>
+    <dimen name="info_slider_btn_line_space">2dp</dimen>
+    <dimen name="info_slider_button_text_size">20sp</dimen>
+    <dimen name="info_slider_mess_margin_bottom">2dp</dimen>
+    <dimen name="info_slider_mess_txt_size">14sp</dimen>
+
+    <!-- LogInActivity -->
+    <dimen name="login_img_margin">10dp</dimen>
+    <dimen name="login_progress_bar_margin">8dp</dimen>
+    <dimen name="login_text_margin_bottom">15dp</dimen>
+    <dimen name="login_edit_text_inner_padding">10dp</dimen>
+    <dimen name="login_edit_text_drawable_padding">10dp</dimen>
+    <dimen name="login_button_text_size">20sp</dimen>
+    <dimen name="login_not_register_line_space">5dp</dimen>
+    <dimen name="login_forgot_margin_bottom">16dp</dimen>
+    <dimen name="login_forgot_padding">20dp</dimen>
+    <dimen name="login_forgot_text_size">12sp</dimen>
+    <dimen name="login_remember_margin">10dp</dimen>
+    <dimen name="login_remember_padding">10dp</dimen>
+    <dimen name="login_sign_in_margin">24dp</dimen>
+    <dimen name="login_sign_in_padding">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin" >16dp</dimen>
+
+
+
+
+    <!--View Spinner Item-->
+    <dimen name="v_spin_padding_b">20dp</dimen>
+    <dimen name="v_spin_iv_width">26dp</dimen>
+    <dimen name="v_spin_iv_height">26dp</dimen>
+    <dimen name="v_spin_tv_padding_e">0dp</dimen>
+    <dimen name="v_spin_tv_padding_s">10dp</dimen>
+    <dimen name="v_spin_tv_text_size">22sp</dimen>
+
+    <!--Passcode Activity-->
+    <dimen name="passcode_setting_padding">30dp</dimen>
+    <dimen name="passcode_margin_bottom">10dp</dimen>
+    <dimen name="passcode_margin_left">20dp</dimen>
+    <dimen name="passcode_margin_right">20dp</dimen>
+    <dimen name="passcode_margin_top">10dp</dimen>
+    <dimen name="passcode_title_txt_size">20sp</dimen>
+    <dimen name="passcode_message_margin_top">30dp</dimen>
+    <dimen name="passcode_message_txt_size">14sp</dimen>
+    <dimen name="passcode_dots_margin">10dp</dimen>
+
+    <dimen name="passcode_grid_view_margin_left">20dp</dimen>
+    <dimen name="passcode_grid_view_margin_right">20dp</dimen>
+    <dimen name="passcode_grid_view_column_width">90dp</dimen>
+    <dimen name="passcode_grid_view_horizontal_space">10dp</dimen>
+    <dimen name="passcode_grid_view_vertical_space">10dp</dimen>
+    <dimen name="passcode_digit_txt_size">30sp</dimen>
+    <dimen name="passcode_digit_img_width">60dp</dimen>
+    <dimen name="passcode_digit_img_height">60dp</dimen>
+    <dimen name="passcode_title_margin_top">5dp</dimen>
+    <dimen name="passcode_title_margin_top_invisible">15dp</dimen>
+    <dimen name="passcode_skip_text_size">15sp</dimen>
+    <dimen name="passcode_fingerprint_m_t">4dp</dimen>
+    <dimen name="passcode_fingerprint_icon_width">62dp</dimen>
+    <dimen name="passcode_fingerprint_label_text_size">10sp</dimen>
+
+
+    <dimen name="view_market_header_text_size">18sp</dimen>
+    <dimen name="view_market_item_text_size">15sp</dimen>
+    <dimen name="view_market_item_time_text_size">12sp</dimen>
+    <dimen name="view_market_list_padding_top">10dp</dimen>
+    <dimen name="view_market_list_padding_bottom">10dp</dimen>
+    <dimen name="view_market_list_padding_start">15dp</dimen>
+    <dimen name="view_market_list_padding_end">20dp</dimen>
+
+    <dimen name="view_market_header_padding_top">10dp</dimen>
+    <dimen name="view_market_header_padding_end">33dp</dimen>
+    <dimen name="view_market_header_padding_start">33dp</dimen>
+    <dimen name="view_market_header_padding_bottom">10dp</dimen>
+    <dimen name="view_bsf_margin">10sp</dimen>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <dimen name="startUp_logo_size">200dp</dimen>
+    <dimen name="startUp_app_name_size">35sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="info_next_padding">20dp</dimen>
+    <dimen name="info_slider_padding_lr">30dp</dimen>
+    <dimen name="info_slider_padding_bottom">60dp</dimen>
+    <dimen name="info_slider_forgot_margin_bottom">16dp</dimen>
+    <dimen name="info_slider_forgot_padding">20dp</dimen>
+    <dimen name="info_slider_forgot_text_size">12sp</dimen>
+    <dimen name="info_slider_remember_margin">10dp</dimen>
+    <dimen name="info_slider_remember_padding">10dp</dimen>
+    <dimen name="info_slider_sign_in_margin">24dp</dimen>
+    <dimen name="info_slider_sign_in_padding">16dp</dimen>
+
+    <dimen name="login_card_margin_bottom">15dp</dimen>
+    <dimen name="login_card_corner_radius">25dp</dimen>
+    <dimen name="login_card_elv">10dp</dimen>
+    <dimen name="login_button_width">300dp</dimen>
+    <dimen name="login_button_height">50dp</dimen>
+    <dimen name="view_account_padding_bottom">10dp</dimen>
+    <dimen name="view_account_padding_top">10dp</dimen>
+    <dimen name="view_account_padding_start">10dp</dimen>
+    <dimen name="view_account_padding_end">10dp</dimen>
+    <dimen name="account_name_txt_size">17sp</dimen>
+    <dimen name="account_show_txt_size">14sp</dimen>
+    <dimen name="view_account_padding_bottom_switch">20dp</dimen>
+    <dimen name="account_icon_margin_bottom">25dp</dimen>
+    <dimen name="passcode_setting_margin_top">10dp</dimen>
+
+    <!-- Activity  Access Block -->
+    <dimen name="access_block_margin">20dp</dimen>
+    <dimen name="acc_blk_l_m">20dp</dimen>
+
+    <dimen name="access_blocked_title_margin_top">50dp</dimen>
+    <dimen name="access_blocked_title_txt_size">25sp</dimen>
+    <dimen name="access_blocked_region_margin_top">20dp</dimen>
+    <dimen name="access_blocked_region_txt_size">17sp</dimen>
+    <dimen name="access_blocked_try_again_margin_top">20dp</dimen>
+    <dimen name="access_blocked_try_again_txt_size">17sp</dimen>
+    <dimen name="access_blocked_time_left_margin_top">10dp</dimen>
+    <dimen name="access_blocked_time_left_txt_size">20sp</dimen>
+
+
+
+    <dimen name="view_order_header_text_size">18sp</dimen>
+    <dimen name="view_order_header_padding_top">10dp</dimen>
+    <dimen name="view_order_header_padding_end">8dp</dimen>
+    <dimen name="view_order_header_padding_start">23dp</dimen>
+    <dimen name="view_order_header_padding_bottom">10dp</dimen>
+
+    <dimen name="view_close_order_item_text_size">15sp</dimen>
+    <dimen name="view_close_order_item_text_size_pair">19sp</dimen>
+
+    <dimen name="view_close_order_item_time_text_size">12sp</dimen>
+    <dimen name="view_close_order_list_padding_top">10dp</dimen>
+    <dimen name="view_close_order_list_padding_bottom">10dp</dimen>
+    <dimen name="view_close_order_list_padding_start">15dp</dimen>
+    <dimen name="view_close_order_list_padding_end">20dp</dimen>
+    <dimen name="view_close_order_item_price_padding">15dp</dimen>
+
+    <dimen name="vn_21view_open_order_item_text_size">14sp</dimen>
+    <dimen name="vn_21view_open_order_item_text_size_pair">18sp</dimen>
+
+    <dimen name="vn_21view_open_order_item_time_text_size">10sp</dimen>
+    <dimen name="vn_21view_open_order_list_padding_top">10dp</dimen>
+    <dimen name="vn_21view_open_order_list_padding_bottom">10dp</dimen>
+    <dimen name="vn_21view_open_order_list_padding_start">10dp</dimen>
+    <dimen name="vn_21view_open_order_list_padding_end">20dp</dimen>
+    <dimen name="vn_21view_open_order_item_price_padding">12dp</dimen>
+
+
+    <dimen name="view_open_order_item_text_size">15sp</dimen>
+    <dimen name="view_open_order_item_text_size_pair">19sp</dimen>
+
+    <dimen name="view_open_order_item_time_text_size">12sp</dimen>
+    <dimen name="view_open_order_list_padding_top">10dp</dimen>
+    <dimen name="view_open_order_list_padding_bottom">10dp</dimen>
+    <dimen name="view_open_order_list_padding_start">15dp</dimen>
+    <dimen name="view_open_order_list_padding_end">20dp</dimen>
+    <dimen name="view_open_order_item_price_padding">15dp</dimen>
+
+
+
+
+    <dimen name="activity_pair_header_text_size">18sp</dimen>
+    <dimen name="activity_pair_item_text_size">18sp</dimen>
+    <dimen name="activity_pair_item_time_text_size">12sp</dimen>
+
+    <dimen name="activity_pair_header_padding_top">10dp</dimen>
+    <dimen name="activity_pair_header_padding_end">33dp</dimen>
+    <dimen name="activity_pair_header_padding_start">33dp</dimen>
+    <dimen name="activity_pair_header_padding_bottom">10dp</dimen>
+    <dimen name="activity_pair_list_padding_top">10dp</dimen>
+    <dimen name="activity_pair_list_padding_bottom">10dp</dimen>
+    <dimen name="activity_pair_list_padding_start">20dp</dimen>
+    <dimen name="activity_pair_list_padding_end">20dp</dimen>
+
+
+
+    <dimen name="view_pr_am_header_text_size">12sp</dimen>
+    <dimen name="view_pr_am_item_text_size">14sp</dimen>
+    <dimen name="view_pr_am_item_time_text_size">12sp</dimen>
+
+    <dimen name="view_pr_am_header_padding_top">30dp</dimen>
+    <dimen name="view_pr_am_header_padding_end">33dp</dimen>
+    <dimen name="view_pr_am_header_padding_start">33dp</dimen>
+    <dimen name="view_pr_am_header_padding_bottom">10dp</dimen>
+    <dimen name="view_pr_am_list_padding">2dp</dimen>
+
+    <!-- GENERAL -->
+    <dimen name="default_stroke_width">7dp</dimen>
+    <dimen name="default_background_stroke_width">3dp</dimen>
+    <dimen name="trade_b_s_peek_height">35dp</dimen>
+</resources>

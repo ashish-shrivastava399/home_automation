@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--PrimePreference-->
+    <integer name="settings_user_max_wrong_attempts">6</integer>
+    <integer name="settings_user_passcode_size_default">4</integer>
+
+    <integer name="info_dots_size">50</integer>
+    <integer name="passcode_dots_size">50</integer>
+    <integer name="default_theme">0</integer>
+</resources>

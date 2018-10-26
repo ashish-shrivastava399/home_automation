@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginEnd="14dp"
+    android:layout_marginStart="14dp"
+    android:background="?selectableItemBackgroundBorderless"
+    android:gravity="center"
+    tools:context=".PasscodeActivity">
+
+    <TextView
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/passcode_digit_background"
+        android:gravity="center"
+        android:textColor="@color/passcode_digit_text_color"
+        android:textSize="@dimen/passcode_digit_txt_size"
+        tools:text="8" />
+
+    <ImageView
+        android:id="@+id/buttonImage"
+        android:layout_width="@dimen/passcode_digit_img_width"
+        android:layout_height="@dimen/passcode_digit_img_height"
+        android:adjustViewBounds="true"
+        android:background="@drawable/passcode_digit_background"
+        android:contentDescription="@string/number"
+        android:scaleType="centerInside"
+        android:visibility="gone" />
+</LinearLayout>

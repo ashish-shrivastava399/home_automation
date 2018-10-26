@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+    <path
+        android:fillColor="#eaea52"
+        android:pathData="M225 0L15 0C6.709 0 0 6.709 0 15l0 210c0 8.291 6.709 15 15 15l210 0c8.291 0 15 -6.709 15 -15L240 15C240 6.709 233.291 0 225 0Zm-15 210l-180 0 0 -180 180 0 0 180z" />
+    <path
+        android:fillColor="#eaea52"
+        android:pathData="M497 0L287 0c-8.291 0 -15 6.709 -15 15l0 210c0 8.291 6.709 15 15 15l210 0c8.291 0 15 -6.709 15 -15L512 15C512 6.709 505.291 0 497 0Zm-15 210l-180 0 0 -180 180 0 0 180z" />
+    <path
+        android:fillColor="#eaea52"
+        android:pathData="M437 60l-90 0c-8.291 0 -15 6.709 -15 15l0 90c0 8.291 6.709 15 15 15l90 0c8.291 0 15 -6.709 15 -15l0 -90c0 -8.291 -6.709 -15 -15 -15z" />
+    <path
+        android:fillColor="#eaea52"
+        android:pathData="M165 60l-90 0c-8.291 0 -15 6.709 -15 15l0 90c0 8.291 6.709 15 15 15l90 0c8.291 0 15 -6.709 15 -15l0 -90c0 -8.291 -6.709 -15 -15 -15z" />
+    <path
+        android:fillColor="#eaea52"
+        android:pathData="M165 332l-90 0c-8.291 0 -15 6.709 -15 15l0 90c0 8.291 6.709 15 15 15l90 0c8.291 0 15 -6.709 15 -15l0 -90c0 -8.291 -6.709 -15 -15 -15z" />
+    <path
+        android:fillColor="#eaea52"
+        android:pathData="M225 272l-210 0c-8.291 0 -15 6.709 -15 15l0 210c0 8.291 6.709 15 15 15l210 0c8.291 0 15 -6.709 15 -15l0 -210c0 -8.291 -6.709 -15 -15 -15zm-15 210l-180 0 0 -180 180 0 0 180z" />
+    <path
+        android:fillColor="#eaea52"
+        android:pathData="M497 362c-8.291 0 -15 6.709 -15 15l0 45 -75 0c-8.291 0 -15 6.709 -15 15l0 45 -90 0 0 -45c0 -8.291 -6.709 -15 -15 -15 -8.291 0 -15 6.709 -15 15l0 60c0 8.291 6.709 15 15 15l120 0c8.291 0 15 -6.709 15 -15l0 -45 75 0c8.291 0 15 -6.709 15 -15l0 -60c0 -8.291 -6.709 -15 -15 -15z" />
+    <path
+        android:fillColor="#eaea52"
+        android:pathData="M377 272l-90 0c-8.291 0 -15 6.709 -15 15l0 90c0 8.291 6.709 15 15 15 8.291 0 15 -6.709 15 -15l0 -75 60 0 0 15c0 8.291 6.709 15 15 15 8.291 0 15 -6.709 15 -15l0 -30c0 -8.291 -6.709 -15 -15 -15z" />
+    <path
+        android:fillColor="#eaea52"
+        android:pathData="M497 272l-60 0c-8.291 0 -15 6.709 -15 15l0 75 -75 0c-8.291 0 -15 6.709 -15 15l0 60c0 8.291 6.709 15 15 15 8.291 0 15 -6.709 15 -15l0 -45 75 0c8.291 0 15 -6.709 15 -15l0 -75 45 0c8.291 0 15 -6.709 15 -15 0 -8.291 -6.709 -15 -15 -15z" />
+    <path
+        android:fillColor="#eaea52"
+        android:pathData="M497 482l-30 0c-8.291 0 -15 6.709 -15 15 0 8.291 6.709 15 15 15l30 0c8.291 0 15 -6.709 15 -15 0 -8.291 -6.709 -15 -15 -15z" />
+</vector>

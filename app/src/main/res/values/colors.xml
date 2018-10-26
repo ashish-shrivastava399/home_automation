@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="account_background_color_">#191c2d</color>
+    <color name="primaryMaterialDark">#303030</color>
+    <color name="primaryDarkMaterialDark">#212121</color>
+    <color name="accentMaterialDark">#5260be</color>
+    <color name="colorPrimary">#181D30</color>
+    <color name="colorPrimaryDark">#141824</color>
+    <color name="colorAccent">#808acb</color>
+    <color name="colorBackground">#191C2F</color>
+    <color name="colorPrimaryDeepDark">#1f2138</color>
+
+    <color name="foregroundMaterial">#ffffff</color>
+    <color name="colorStatusBar">#b2ffffff</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="textColorPrimaryInverse">#000000</color>
+    <color name="textColorSecondary">#b2ffffff</color>
+    <color name="textColorSecondaryInverse">#8a000000</color>
+
+    <color name="start_up_text_color">#edd201</color>
+    <color name="textColorRed">#FF2A46</color>
+    <color name="info_button_text_color">#FFFFFF</color>
+    <color name="info_button_enable_txt_color">@android:color/primary_text_dark</color>
+    <color name="info_button_disable_txt_color">@android:color/darker_gray</color>
+    <color name="info_slider_desc_color">@color/textColorSecondary</color>
+    <color name="info_dots_other">@android:color/darker_gray</color>
+    <color name="info_dots_focused">@color/colorAccent</color>
+    <color name="info_slider_mess_permission_denied_color">@android:color/holo_red_dark</color>
+    <color name="info_slider_mess_permission_partial_color">#ff5500</color>
+    <color name="info_slider_mess_permission_granted_color">#008000</color>
+    <color name="passcode_title_color">@color/textColorPrimary</color>
+    <color name="passcode_message_color">@color/textColorSecondary</color>
+    <color name="colorLightGray">#d8d8d8</color>
+
+    <color name="tab_checked">@color/colorAccent</color>
+    <color name="tab_unchecked">@color/colorLightGray</color>
+    <color name="textColorGreen">#20CB02</color>
+    <color name="colorIncrease">#20CB02</color>
+    <color name="colorDecrease">#FF2A46</color>
+    <color name="passcode_text_color">@color/textColorPrimary</color>
+</resources>

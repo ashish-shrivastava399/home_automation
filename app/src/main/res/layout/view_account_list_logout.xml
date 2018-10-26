@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="30dp"
+    android:paddingBottom="@dimen/view_open_order_list_padding_bottom"
+    android:paddingEnd="@dimen/view_open_order_list_padding_end"
+    android:paddingStart="@dimen/view_open_order_list_padding_start">
+
+    <Button
+        android:id="@+id/log_out"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/buy_sell_btn_bg"
+        tools:text="@string/logout" />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/view_bsf_margin"
+    android:layout_marginEnd="@dimen/view_bsf_margin"
+    android:layout_marginStart="@dimen/view_bsf_margin"
+    android:layout_marginTop="@dimen/view_bsf_margin"
+    android:background="@color/colorBackground">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/courier_bold"
+        android:text="@string/use_fingerprint"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:id="@+id/fingerprintImage"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:contentDescription="@string/app_name"
+        android:src="@mipmap/ic_fingerprint" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fingerprintImage"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="@string/place_finger_on_scanner"
+        android:textSize="15sp" />
+
+</RelativeLayout>

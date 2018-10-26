@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RippleEffectView">
+        <attr name="rev_alpha" format="integer" />
+        <attr name="rev_frame_rate" format="integer" />
+        <attr name="rev_rippleDuration" format="integer" />
+        <attr name="rev_zoomDuration" format="integer" />
+        <attr name="rev_color" format="color" />
+        <attr name="rev_centered" format="boolean" />
+        <attr name="rev_type" format="enum">
+            <enum name="simpleRipple" value="0" />
+            <enum name="doubleRipple" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+        <attr name="rev_ripplePadding" format="dimension" />
+        <attr name="rev_zoom" format="boolean" />
+        <attr name="rev_zoomScale" format="float" />
+
+    </declare-styleable>
+
+
+    <declare-styleable name="CircularProgressBar">
+        <attr name="cpb_progress" format="integer" />
+        <attr name="cpb_progress_max" format="integer" />
+        <attr name="cpb_indeterminate_mode" format="boolean" />
+        <attr name="cpb_progressbar_color" format="color" />
+        <attr name="cpb_background_progressbar_color" format="color" />
+        <attr name="cpb_progressbar_width" format="dimension" />
+        <attr name="cpb_background_progressbar_width" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="TextPathView">
+        <attr name="textSize" format="dimension" />
+        <attr name="text" format="string" />
+        <attr name="autoStart" format="boolean" />
+        <attr name="showInStart" format="boolean" />
+        <attr name="textInCenter" format="boolean" />
+        <attr name="duration" />
+        <attr name="showPainter" />
+        <attr name="showPainterActually" />
+        <attr name="pathStrokeWidth" />
+        <attr name="pathStrokeColor" />
+        <attr name="paintStrokeWidth" />
+        <attr name="paintStrokeColor" />
+        <attr name="repeat" />
+    </declare-styleable>
+
+    <declare-styleable name="PathView">
+        <attr name="duration" />
+        <attr name="showPainter" />
+        <attr name="showPainterActually" />
+        <attr name="pathStrokeWidth" />
+        <attr name="pathStrokeColor" />
+        <attr name="paintStrokeWidth" />
+        <attr name="paintStrokeColor" />
+        <attr name="repeat" />
+    </declare-styleable>
+</resources>

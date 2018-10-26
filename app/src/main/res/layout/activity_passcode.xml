@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/pass_main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PasscodeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/passcode_margin_bottom"
+        android:layout_marginEnd="@dimen/passcode_margin_right"
+        android:layout_marginStart="@dimen/passcode_margin_left"
+        android:layout_marginTop="@dimen/passcode_margin_top"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start">
+            <ImageView
+                android:id="@+id/setting"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingEnd="@dimen/passcode_setting_padding"
+                android:paddingStart="@dimen/passcode_setting_padding"
+                android:src="@drawable/ic_settings" />
+            <TextView
+                android:id="@+id/skip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingEnd="@dimen/passcode_setting_padding"
+                android:paddingStart="@dimen/passcode_setting_padding"
+                android:text="@string/skip"
+                android:textColor="@color/colorLightGray"
+                android:textSize="@dimen/passcode_skip_text_size"
+                tools:ignore="RelativeOverlap" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/passcode_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/passcode_title_margin_top"
+            android:fontFamily="sans-serif"
+            android:gravity="center"
+            android:textColor="@color/passcode_title_color"
+            android:textSize="@dimen/passcode_title_txt_size"
+            android:textStyle="bold"
+            tools:text="Create Passcode" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/passcode_message_margin_top"
+            android:gravity="center"
+            android:textColor="@color/passcode_message_color"
+            android:textSize="@dimen/passcode_message_txt_size"
+            tools:text="@string/create_passcode_message" />
+
+        <LinearLayout
+            android:id="@+id/dotsLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_margin="@dimen/passcode_dots_margin"
+            android:background="?android:attr/selectableItemBackgroundBorderless"
+            android:orientation="horizontal" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/passView"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="@dimen/passcode_grid_view_margin_right"
+            android:layout_marginStart="@dimen/passcode_grid_view_margin_left"
+            android:layout_weight="1"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:scrollbars="vertical"
+            app:layoutManager="android.support.v7.widget.GridLayoutManager"
+            app:spanCount="3" />
+
+        <View
+            android:id="@+id/finger_place_holder"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+    <android.support.v11.CHCV
+        android:id="@+id/slide_bsf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginTop="@dimen/passcode_fingerprint_m_t"
+        android:gravity="center"
+        android:minHeight="30dp"
+        android:paddingEnd="@dimen/passcode_margin_right"
+        android:paddingStart="@dimen/passcode_margin_left"
+        app:cardElevation="12dp">
+
+        <TextView
+            android:id="@+id/fingerprintLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:drawableStart="@drawable/ic_up"
+            android:gravity="center"
+            android:textSize="13sp" />
+
+    </android.support.v11.CHCV>
+
+</android.support.design.widget.CoordinatorLayout>

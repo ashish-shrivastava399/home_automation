@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--PrimePreference-->
+    <bool name="settings_user_has_account_default">false</bool>
+    <bool name="settings_user_logged_in_default">false</bool>
+
+    <bool name="default_dark_theme">true</bool>
+    <bool name="settings_user_has_passcode_default">false</bool>
+</resources>

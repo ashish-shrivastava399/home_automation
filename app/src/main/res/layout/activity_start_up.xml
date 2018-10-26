@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/start_up_frame_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_richamster_default"
+    tools:context=".StartUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/start_up_ll_m"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:id="@+id/appLogo"
+            android:layout_width="192dp"
+            android:layout_height="192dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_logo" />
+
+        <android.support.v11.SyncTextPathView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            app:duration="5000"
+            app:paintStrokeColor="@color/colorAccent"
+            app:pathStrokeColor="@color/colorAccent"
+            app:showPainter="false"
+            app:text="@string/app_name"
+            app:textInCenter="true"
+            app:textSize="50sp" />
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/circularProgressbar"
+        android:layout_width="@dimen/start_up_pbar_width"
+        android:layout_height="@dimen/start_up_pbar_height"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/start_up_pbar_margin_bottom" />
+</RelativeLayout>
